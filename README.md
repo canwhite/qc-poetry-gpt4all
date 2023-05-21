@@ -52,3 +52,21 @@ python
 运行文件的时候是python xxx.py
 运行模块的时候是python -m 模块名
 
+
+## run
+
+```
+Pre : 
+1.需要gpt4all在本地的安装准备
+2.更改poe_test中本地训练数据的load地址
+model = GPT4All_J('/Users/zack/Library/Application Support/nomic.ai/GPT4All/ggml-gpt4all-j-v1.3-groovy.bin')
+例如，我的地址是/Users/zack/Library/Application Support/nomic.ai/GPT4All/ggml-gpt4all-j-v1.3-groovy.bin
+需要改成自己的
+
+
+then：
+python -m poe_test
+
+
+```
+
